@@ -1,6 +1,6 @@
 module.exports = {
     db: {
-        remove: true, //reset database,
+        remove: false, //reset database,
         name: 'postgres_test',
         user: 'postgres_test',
         password : 'postgres_test'
